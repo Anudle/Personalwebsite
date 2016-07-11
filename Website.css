@@ -43,9 +43,16 @@ li {
     padding-left: 16px;
     text-decoration: none;
 }
+a:link, avisited{
+  color: black;
+}
+a{
+  text-decoration: none;
+}
 /* Pragraph for my Here and Now */
 .hn{
-  background-color: rgba(116, 158, 179, 0.34);
+      background-color: rgba(116, 158, 179, 0.34);
+      font-family: 'Muli', sans-serif;
       width: 600px;
       margin-left: 20px;
       margin-right: 200px;
@@ -53,6 +60,7 @@ li {
       border-color: black;
       border-style: dashed;
       padding-left: 25px;
+      padding-right: 5px;
       float: left;
 }
 .seal{
@@ -134,7 +142,12 @@ body {
 }
 p2{
   color: white;
+  font-family: 'Muli', sans-serif;
 }
+p{
+  font-family: 'Muli', sans-serif;
+}
+
 .text{
   background-color: rgba(37, 50, 64, 0.72);
   border-radius: 25px;
